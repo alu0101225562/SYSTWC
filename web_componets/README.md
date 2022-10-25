@@ -1,0 +1,1 @@
+# Para hacer funcionar el api rest ejecutar el comando ```npm run serve``` en la carpeta animales
