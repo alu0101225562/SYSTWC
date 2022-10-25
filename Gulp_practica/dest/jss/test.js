@@ -1,0 +1,1 @@
+var gulp=require("gulp"),uglify=require("gulp-uglify"),pipeline=require("readable-stream").pipeline;gulp.task("compress",function(){return pipeline(gulp.src("lib/*.js"),uglify(),gulp.dest("dist"))});

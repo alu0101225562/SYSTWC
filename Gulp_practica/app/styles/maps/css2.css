@@ -1,0 +1,17 @@
+
+/* Applies to all <h1>...</h1> elements. */
+p {
+    font-size: 35px;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+/* Applies to all elements with <... class="someclass"> specified. */
+.test {
+    color: red;
+}
+
+/* Applies to the element with <... id="someid"> specified. */
+#testid {
+    color: green;
+}
